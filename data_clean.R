@@ -16,7 +16,7 @@ join_colname <- intersect(sent_colnam, res_colnam)
 # concatenating overlapping residential & sentinal dataframes
 sent_intersect <- sent[join_colname]
 res_intersect <- res[join_colname]
-sent_intersect['source'] = "Sentinal"
+sent_intersect['source'] = "Sentinel"
 res_intersect['source'] = "Residential"
 
 res_sent <- rbind(sent_intersect, res_intersect)
