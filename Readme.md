@@ -2,7 +2,9 @@
 
 **Sean Ma, May 2016**
 
-This is a visualization project done for the Michigan Data Science Team (MDST) at the University of Michigan. We had the opportunity to collaborate with the City of Flint for their water crisis. Our goal is to provide data science skills to help translate data collected at the residential and city level into actionable insights. We hope this endeavor will benefit the residents at Flint in their journey to full recovery.
+This is a visualization project done for the Michigan Data Science Team ([MDST](http://mdst.eecs.umich.edu/)) at the University of Michigan. We had the opportunity to collaborate with the City of Flint for their water crisis. Our goal is to provide data science skills to help translate data collected at the residential and city level into actionable insights. We hope this endeavor will benefit the residents at Flint in their journey to full recovery.
+
+The code is in R Shiny ([link](http://shiny.rstudio.com/)) format and uses the _leaflet_ package ([link](http://rstudio.github.io/leaflet/)) heavily for map visualization.  
 
 ### News coverage regarding this endeavor: ###
 - UM Record Press ([link](http://record.umich.edu/articles/google-u-m-build-digital-tools-flint-water-crisis))
