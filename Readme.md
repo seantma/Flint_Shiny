@@ -6,6 +6,8 @@ This is a visualization project done for the Michigan Data Science Team ([MDST](
 
 The code is in R Shiny ([link](http://shiny.rstudio.com/)) format and uses the _leaflet_ package ([link](http://rstudio.github.io/leaflet/)) heavily for map visualization.  
 
+![snapshot](./asset/snapshot.png)
+
 ### News coverage regarding this endeavor: ###
 - UM Record Press ([link](http://record.umich.edu/articles/google-u-m-build-digital-tools-flint-water-crisis))
 - Gizmodo ([link](http://gizmodo.com/google-is-helping-flint-prioritize-which-lead-pipes-nee-1774517926))
