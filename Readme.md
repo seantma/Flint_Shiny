@@ -19,6 +19,7 @@ The code is in R Shiny ([link](http://shiny.rstudio.com/)) format and uses the _
 - Add sliding time slider to indicate lead level change over time
 - Incorporate service line data for visualization
 - Add density line graphs on the side
+- Add correlation graphs (year built vs lead level, etc.) on the side
 - Add density plot as rastor layer
 - Overlay Land Bank data as separate layer
 - Overlay prediction model output as new layer 
