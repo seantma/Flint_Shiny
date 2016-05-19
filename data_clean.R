@@ -24,3 +24,9 @@ res_sent <- rbind(sent_intersect, res_intersect)
 # adding lead 15 bpp criteria factor
 res_sent <- res_sent %>% mutate(LeadLevel = ifelse(res_sent$Lead..ppb. < 15, "Safe", "unSafe"))
 
+# adding back NA latitude longitude
+NAindex <- which(is.na(res_sent[, "Latitude"]))
+res_sent[NAindex, "Property.Address"]   # Both at 1222 KENSINGTON AVE, flint, mi
+res_sent[NAindex[1], c("Latitude", "Longitude")] <- c(43.01383, -83.66655)
+res_sent[NAindex[2], c("Latitude", "Longitude")] <- c(43.01383, -83.66655)
+res_sent[NAindex, c("Latitude", "Longitude")]
