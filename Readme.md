@@ -2,7 +2,7 @@
 
 **Sean Ma, May 2016**
 
-This is a visualization project done for the Michigan Data Science Team ([MDST](http://mdst.eecs.umich.edu/)) at the University of Michigan. We had the opportunity to collaborate with the City of Flint for their water crisis. Our goal is to provide data science skills to help translate data collected at the residential and city level into actionable insights. We hope this endeavor will benefit the residents at Flint in their journey to full recovery.
+This is a visualization project done for the Michigan Data Science Team ([MDST](http://mdst.eecs.umich.edu/)) at the University of Michigan. We had the opportunity to collaborate with the City of Flint for their water crisis. One goal is to provide data science skills to help translate data collected at the residential and city level into actionable insights. We hope this endeavor will benefit the residents at Flint in their journey to full recovery.
 
 The code is in R Shiny ([link](http://shiny.rstudio.com/)) format and uses the _leaflet_ package ([link](http://rstudio.github.io/leaflet/)) heavily for map visualization.  
 
@@ -17,7 +17,7 @@ The code is in R Shiny ([link](http://shiny.rstudio.com/)) format and uses the _
 ### Todos: ###
 - Separate Residential and Sentinel icons ==> _leaflet_ only has Circle markers that can change with size. Should I just change the Sentinel data into a custom icon? Or should have a line graph displaying the different changes over time?
 - Add sliding time slider to indicate lead level change over time (need to decide time increment points)
-- Incorporate service line data for visualization ==> Or should I use a custom icon labeling the presence of service line data for this site. 
+- Incorporate service line data for visualization ==> Or should I use a custom icon labeling the presence of service line data for this site.
 - Add density line graphs on the side
 - Add correlation graphs (year built vs lead level, etc.) on the side
 - Add density plot as raster layer
