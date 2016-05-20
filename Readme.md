@@ -11,16 +11,15 @@ The code is in R Shiny ([link](http://shiny.rstudio.com/)) format and uses the _
 ### News coverage: ###
 - UM Record Press ([link](http://record.umich.edu/articles/google-u-m-build-digital-tools-flint-water-crisis))
 - Gizmodo ([link](http://gizmodo.com/google-is-helping-flint-prioritize-which-lead-pipes-nee-1774517926))
-- Chicago Tribune ([link](http://www.chicagotribune.com/bluesky/originals/ct-google-flint-water-data-bsi-20160503-story.html)) 
+- Chicago Tribune ([link](http://www.chicagotribune.com/bluesky/originals/ct-google-flint-water-data-bsi-20160503-story.html))
 - WNEM TV5 ([link](http://www.wnem.com/story/31881735/google-donates-250000-to-help-bring-information-to-flint-residents))
 
 ### Todos: ###
-- Separate Residential and Sentinel icons
+- Separate Residential and Sentinel icons ==> _leaflet_ only has Circle markers that can change with size. Should I just change the Sentinel data into a custom icon? Or should have a line graph displaying the different changes over time?
 - Add sliding time slider to indicate lead level change over time (need to decide time increment points)
-- Incorporate service line data for visualization
+- Incorporate service line data for visualization ==> Or should I use a custom icon labeling the presence of service line data for this site. 
 - Add density line graphs on the side
 - Add correlation graphs (year built vs lead level, etc.) on the side
-- Add density plot as rastor layer
+- Add density plot as raster layer
 - Overlay Land Bank data as separate layer
-- Overlay prediction model output as new layer 
-
+- Overlay prediction model output as new layer
