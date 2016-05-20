@@ -22,7 +22,7 @@ res_intersect['source'] = "Residential"
 res_sent <- rbind(sent_intersect, res_intersect)
 
 # adding lead 15 bpp criteria factor
-res_sent <- res_sent %>% mutate(LeadLevel = ifelse(res_sent$Lead..ppb. < 15, "Safe", "unSafe"))
+res_sent <- res_sent %>% mutate(LeadLevel = ifelse(res_sent$Lead..ppb. < 15, "Below 15ppb", "Above 15ppb"))
 
 # adding back NA latitude longitude
 NAindex <- which(is.na(res_sent[, "Latitude"]))
